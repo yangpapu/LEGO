@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png" type="image">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <title>LEGO</title>
+</head>
+<body>
+
+    <nav>
+          <ul>
+                <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png">
+                <li><a href="#"><strong>AYUDA</strong></a></li>
+                <li><a href="#"><strong>DESCUBRIR</strong></a></li>
+                <li><a href="#"><strong>COMPRAR</strong></a></li>
+          </ul>
+    </nav>
+
+<div id="starwars">
+   <img id="swlogo" src="https://www.lego.com/cdn/cs/set/assets/bltfb987f8b1414454f/starWars_logo_black_stroke_300w.png?format=png&height=60&dpr=1">
+     <h1 class="texto"> Este es el camino </h1>
+     <h3 class="texto"> Recrea toda la acción con el nuevo set The Razor <br>
+        Crest™ de la serie <em>Star Wars:</em> The Mandalorian </h3>
+    
+        <button id="boton1"> SABER MÁS </button>
+</div>
+
+ <h1 style="text-align: center;"> PRODUCTOS DESTACADOS </h1> <hr>
+ <div id="productos">
+     <div class="producto">
+        <img  class="imagenes" src="https://www.lego.com/cdn/cs/set/assets/bltbc4d6a7466128785/76261.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1">
+        <h3> Batalla Final de Spider-Man </h3>
+        <button class="botones1" id="btn1" onclick="cambiarContenido1()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        AGREGAR AL CARRITO </button>
+    </div>
+
+    <div class="producto">
+        <img  class="imagenes" src="https://www.lego.com/cdn/cs/set/assets/bltbf801fe63cdb12e2/76219.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1">
+        <h3> Spider-Man vs. Duende Verde: Batalla de Mecas </h3>
+        <button class="botones1" id="btn2" onclick="cambiarContenido2()"> 
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>  
+        AGREGAR AL CARRITO </button>
+    </div>
+
+    <div class="producto">
+        <img  class="imagenes" src="https://www.lego.com/cdn/cs/set/assets/blt007b9c75f4947d64/10789.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1">
+        <h3> Coche de Spider-Man y Doc Ock </h3>
+        <button class="botones1" id="btn3" onclick="cambiarContenido3()"> 
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        AGREGAR AL CARRITO </button>
+    </div>
+
+    <div class="producto">
+        <img  class="imagenes" src="https://www.lego.com/cdn/cs/set/assets/bltf7dd4b711db051ad/76199.jpg?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1">
+        <h3> Carnage </h3>
+        <button class="botones1" id="btn4" onclick="cambiarContenido4()"> 
+         <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        AGREGAR AL CARRITO </button>
+    </div>
+ </div>
+
+ <footer id="footer">
+    <div class="row">
+        <img id="logoft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png">
+      <div class="column"> 
+        <p><strong>QUIÉNES SOMOS</strong></p> <br>
+        <a href="">The Lego Group</a> <br>
+        <a href="">Noticias LEGO®</a> <br>
+        <a href="">Sostenibilidad</a> <br>
+        <a href="">Declaración de transparencia de la cadena de suministro</a> <br>
+        <a href="">Certificación de productos LEGO</a> <br>
+        <a href="">Ofertas de trabajo LEGO</a> <br>
+        <a href="">Línea ética LEGO</a>
+     </div>
+
+      <div class="column">
+        <p><strong>ATENCIÓN AL CLIENTE</strong></p> <br>
+        <a href="">Ponte en contacto con nosotros</a> <br>
+        <a href="">Instrucciones de construcción</a> <br>
+        <a href="">Piezas de repuesto</a> <br>
+        <a href="">Productos retirados</a> <br>
+      </div>
+      
+      <div class="column">
+        <p><strong>ATRACCIONES</strong></p> <br>
+        <a href="">LEGO® House</a> <br>
+        <a href="">LEGOLAND® Parks</a> <br>
+        <a href="">LEGOLAND Discovery Centers</a> <br>
+        </div>
+    
+      <div class="column">
+        <p><strong>MÁS INFORMACIÓN</strong></p> <br>
+        <a href="">LEGO® LIFE</a> <br>
+        <a href="">LEGO Education</a> <br>
+        <a href="">LEGO Ideas</a> <br>
+        <a href="">LEGO Foundation</a>
+      </div>
+
+      <div class="column">
+        <p><strong>REGISTRATE</strong></p>
+        <p>Nombre de usuario</p>
+        <input id="nombre" type="text"/>
+        <p>Correo electronico</p>
+        <input type="email">
+        <p>Contraseña</p>
+        <input type="password"/>
+        <button class="botones2" onclick="enviar()">REGISTRARSE</button>
+      </div>
+
+      <div class="column">
+        <p><strong>CAJA DE COMENTARIOS</strong></p>
+        <textarea id="comentario" placeholder="Escribe tu comentario"></textarea> <br>
+        <button class="botones2" onclick="agregarComentario()">AGREGAR COMENTARIO</button>
+        <div id="contenedor-comentarios"></div>
+      </div>
+</div>
+  </footer>
+</body>
+</html>

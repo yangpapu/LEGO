@@ -1,0 +1,246 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: yellow; 
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin-right: 950px;
+    padding: 0;
+  }
+   nav li {
+    margin-top: 15px;
+    float: right;
+  }
+  nav a {
+    display: flex; 
+    color: black; 
+    text-align: center;
+    padding: 10px 10px; 
+    text-decoration: none;
+  }
+  nav li a:hover {
+    color: rgb(56, 56, 56);
+  }
+#logo{
+    width: 50px;
+    margin: 10px;
+}
+
+#starwars{
+    background-image: url("https://www.lego.com/cdn/cs/set/assets/bltc282b0bf4cf5c2ce/75331-Exclusive-202210-PS-Hero-Standard-Large.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1");
+    color: white;
+}
+#swlogo{
+    margin-top: 110px;
+    margin-left: 1120px;
+}
+#boton1{
+    margin-bottom: 130px;
+    margin-left: 1150px;
+
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#boton1:hover{
+  color: white;
+  background-color: black;
+}
+
+.botones1{
+  margin-top: 10px;
+  position:relative;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: midnightblue;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.botones1:hover{
+  color: black;
+  background-color: white;
+}
+.botones1 span{
+position: absolute;
+background: midnightblue;
+transition: 0.5s;
+}
+.botones1 span:nth-child(1){
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: -100%;
+}
+.botones1 span:nth-child(2){
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  right: -100%;
+}
+.botones1 span:nth-child(3){
+  width: 1px;
+  height: 100%;
+  bottom: -100%;
+  left: -0;
+}
+.botones1 span:nth-child(4){
+  width: 1px;
+  height: 100%;
+  top: -100%;
+  right: 0;
+}
+.botones1:hover span:nth-child(1){
+  left: 0;
+}
+.botones1:hover span:nth-child(2){
+  right: 0;
+}
+.botones1:hover span:nth-child(3){
+  bottom: 0;
+}
+.botones1:hover span:nth-child(4){
+  top: 0;
+}
+
+.botones2{
+  margin-top: 10px;
+  position:relative;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: midnightblue;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.botones2:hover{
+  color: white;
+  background-color: midnightblue;
+}
+.botones2 span{
+position: absolute;
+background: white;
+transition: 0.5s;
+}
+.botones2 span:nth-child(1){
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: -100%;
+}
+.botones2 span:nth-child(2){
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  right: -100%;
+}
+.botones2 span:nth-child(3){
+  width: 1px;
+  height: 100%;
+  bottom: -100%;
+  left: -0;
+}
+.botones2 span:nth-child(4){
+  width: 1px;
+  height: 100%;
+  top: -100%;
+  right: 0;
+}
+.botones2:hover span:nth-child(1){
+  left: 0;
+}
+.botones2:hover span:nth-child(2){
+  right: 0;
+}
+.botones2:hover span:nth-child(3){
+  bottom: 0;
+}
+.botones2:hover span:nth-child(4){
+  top: 0;
+}
+
+.texto{
+margin-right: 90px;
+text-align: right;
+}
+.imagenes{
+    height: 230px;
+}
+#productos{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.producto{
+    margin-right: 30px;
+}
+
+#footer{
+    background-color:midnightblue;
+    margin-top: 20px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .column {
+    flex: 1;
+    height: 320px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .column p{
+    color: white;
+    margin-top: 30px;
+  }
+  .column a{
+    color: white;
+    text-decoration: none;
+  }
+.column a:hover{
+  color: grey;
+}
+#logoft{
+    margin: 20px;
+    height: 100px;
+}
+#comentario{
+		background-color: #f2f2f2;
+		padding: 10px;
+		margin-bottom: 10px;
+    margin-right: 50px;
+}
+#contenedor-comentarios{
+  margin-top: 10px;
+  color: white;
+}
